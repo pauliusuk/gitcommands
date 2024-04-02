@@ -25,7 +25,8 @@ git submodule set-url public https://github.com/pauliusuk/pauliusuk.github.io.gi
 | `git config --global user.email "user1@example.com"` | Set user email |
 | `git config --global core.editor "nvim"`             | Set editor to nvim |
 | `git log -4`                                         | shows 4 last commits |
-| `git rm --cached -r .`                               | remove unstage commits|
+| `git rm --cached -r .`                               | remove unstage commits |
+|`git commit --amend -m "New commit message"`          | change commit message if not pushed yet |
 
 ## SSH remote
 | Command | Description |
