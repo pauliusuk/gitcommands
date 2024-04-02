@@ -33,7 +33,8 @@ git submodule set-url public https://github.com/pauliusuk/pauliusuk.github.io.gi
 | :--  | :-- |
 |  `git remote -v`                                            | check remote link |
 |  `git remote add origin git@github.com:user1/.dotfiles.git` | add ssh remote link |
-|  `git remote set-url origin git@github.com:Paulobox/gitcommands.git` | add & overwrite ssh remote link |
+| `git remote set-url origin https://github.com/Paulobox/gitcommands.git`| set https remote link |
+|  `git remote set-url origin git@github.com:Paulobox/gitcommands.git` | set ssh remote link |
 
 
 ## Git Rebase
