@@ -103,3 +103,8 @@ check added list of ssh keys
 ```
 ssh-add -l
 ```
+
+remove ssh identities
+```
+ssh-add -D
+```
